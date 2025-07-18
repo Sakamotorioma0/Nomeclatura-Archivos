@@ -105,7 +105,7 @@ inputCheckfolio.id = "checkIndeterminate";
 const labelCheckFolio = document.createElement("label");
 labelCheckFolio.className = "form-check-label";
 labelCheckFolio.for = "checkIndeterminate";
-labelCheckFolio.innerText = "Usa Folio?";
+labelCheckFolio.innerText = "Usa Clave de Plano?";
 
 divcheckFolio.appendChild(inputCheckfolio);
 divcheckFolio.appendChild(labelCheckFolio);
