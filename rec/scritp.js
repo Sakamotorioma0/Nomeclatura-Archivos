@@ -382,7 +382,7 @@ btGenerar.addEventListener('click', function() {
             if (checkSubProy.checked) {
                 nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_" + subproyecto.replace(/ /g, "_") + "_" + opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
             } else {
-                nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_" + "_" + opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
+                nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_"+ opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
             };
 
         };
