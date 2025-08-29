@@ -67,7 +67,7 @@ const opEstim = document.createElement("option");
 
 
 opPresu.value = "1";
-opPresu.text = "Presupuestos";
+opPresu.text = "Presupuesto";
 opPresu.id = "costos";
 opCataCon.value = "2";
 opCataCon.text = "Catalogo_de_Conceptos";
@@ -86,7 +86,7 @@ const opMemDes = document.createElement("option");
 
 opRepFoto.value = "1";
 opRepFoto.text = "Reporte_Fotografco";
-opRepFoto.id = "reportes";
+opRepFoto.id = "reporte";
 opRep.value = "2";
 opRep.text = "Actividades";
 opMemDes.value = "3";
@@ -382,7 +382,7 @@ btGenerar.addEventListener('click', function() {
             if (checkSubProy.checked) {
                 nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_" + subproyecto.replace(/ /g, "_") + "_" + opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
             } else {
-                nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_"+ opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
+                nombDoc.textContent = inputFecha.value + "-" + proyecto.replace(/ /g, "_") + "_" + opcionSeleccionada.text + "_" + opcionSeleccionadasub.text + "_" + especi.replace(/ /g, "_") + "_v" + version;
             };
 
         };
