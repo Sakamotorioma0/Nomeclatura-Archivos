@@ -74,7 +74,7 @@ opCataCon.text = "Catalogo_de_Conceptos";
 opGen.value = "3";
 opGen.text = "Generador";
 opPreAut.value = "4";
-opPreAut.text = "Presupuesto_Autoriozado";
+opPreAut.text = "Presupuesto_Autorizado";
 opEstim.value = "5";
 opEstim.text = "Estimaciones"
 
@@ -450,4 +450,5 @@ const appendAlert = (message, type) => {
 
 
     alertPlaceholder.append(wrapper);
+
 };
